@@ -1,6 +1,6 @@
 # Seeded Gradient Generator
 
-Javascript utility to generate beautiful gradient backgrounds.
+Javascript utility to generate beautiful gradient backgrounds. Built by the team behind [privjs.com](https://privjs.com)
 
 ## Installation
 
@@ -17,3 +17,9 @@ const background = gradient('randomstring')
 
 <div style={{ backgroundImage: background, width: '10rem', aspectRatio: '1' }}></div>
 ```
+
+## Support
+
+Contact me on [Twitter](https://twitter.com/prasannamestha) or write an email to [prasanna@privjs.com](mailto:prasanna@privjs.com).
+
+Do check out PrivJs Safe: [https://safe.privjs.com](https://safe.privjs.com)

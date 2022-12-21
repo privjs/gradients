@@ -3,3 +3,4 @@ src/index.html
 src/index.tsx
 dist/
 .cache
+.npmrc

@@ -9,7 +9,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
-    "outDir": "bin"
+    "outDir": "bin",
+    "declaration": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]

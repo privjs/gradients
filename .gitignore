@@ -1,6 +1,5 @@
-node_modules/
-src/index.html
-src/index.tsx
-dist/
 .cache
 .npmrc
+node_modules/
+dist/
+bin/

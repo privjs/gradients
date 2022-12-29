@@ -1,4 +1,4 @@
 .cache/
+.npmrc
 node_modules/
 src/
-.npmrc

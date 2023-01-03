@@ -2,6 +2,10 @@
 
 Javascript utility to generate beautiful gradient backgrounds. Built by the team behind [privjs.com](https://privjs.com)
 
+## Demo
+
+[https://www.prasannamestha.com/blog/science-of-beautiful-color-gradients](https://www.prasannamestha.com/blog/science-of-beautiful-color-gradients)
+
 ## Installation
 
 ```

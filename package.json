@@ -7,8 +7,18 @@
   "scripts": {
     "types": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "gradient",
+    "random-gradient",
+    "beautiful-gradient",
+    "color-gradient"
+  ],
+  "author": "Prasanna Mestha <prasanna@privjs.com> (https://prasannamestha.com)",
+  "homepage": "https://www.prasannamestha.com/blog/science-of-beautiful-color-gradients",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/privjs/gradients"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chroma-js": "^2.1.4",

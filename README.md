@@ -2,8 +2,7 @@
 
 Javascript utility to generate beautiful gradient backgrounds. Built by the team behind [privjs.com](https://privjs.com)
 
-![2023-01-03 17 37 41](https://user-images.githubusercontent.com/24790143/210390271-6803d3b3-a644-4a7b-bb2e-5b2c0d4a5116.gif)
-
+<img width="677" alt="Screenshot 2023-01-03 at 5 44 04 PM" src="https://user-images.githubusercontent.com/24790143/210391238-1236446d-010d-42ca-91c2-43085946466e.png">
 
 ## Demo
 

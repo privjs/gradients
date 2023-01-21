@@ -15,7 +15,7 @@ export const genGradient: GenGradient = (string) => {
     minStops: 5,
     maxStops: 20,
   };
-  const numOfStops = seededRandom(string, [3, 7]);
+  const numOfStops = seededRandom(string, [5, 20]);
 
   const _lightness = seededRandom(string, [
     colorGenConfig.minLightness,

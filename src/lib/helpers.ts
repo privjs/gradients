@@ -7,7 +7,7 @@ type GenStopsArgs = {
   numOfStops: number;
 };
 export const genStops = ({ color1, color2, numOfStops }: GenStopsArgs) => {
-  return chroma.scale([color1, color2]).mode('lch').colors(numOfStops, 'hex');
+  return chroma.scale([color1, color2]).mode('lch').colors(numOfStops, 'hsl');
 };
 
 export const getStopsArray = (
@@ -29,10 +29,14 @@ export const getStopsArray = (
     // If this color is grayscale
     const hue = isNaN(color[0]) ? 0 : Math.round(color[0]);
 
-    const hslString = `hsl(${hue}deg ${Math.round(
-      color[1] * 100
-    )}% ${Math.round(color[2] * 100)}%)`;
+    // const hslString = `hsl(${hue}deg ${}% ${}%)`;
 
-    return `${hslString} ${y}%`;
+    const hexValue = chroma.hsl(
+      hue,
+      Math.round(color[1] * 100),
+      Math.round(color[2] * 100)
+    );
+
+    return `${hexValue} ${y}%`;
   });
 };

@@ -7,7 +7,7 @@ type GenStopsArgs = {
   numOfStops: number;
 };
 export const genStops = ({ color1, color2, numOfStops }: GenStopsArgs) => {
-  return chroma.scale([color1, color2]).mode('lch').colors(numOfStops, 'hsl');
+  return chroma.scale([color1, color2]).mode('lch').colors(numOfStops, 'hex');
 };
 
 export const getStopsArray = (

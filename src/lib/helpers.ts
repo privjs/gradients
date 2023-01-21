@@ -33,8 +33,8 @@ export const getStopsArray = (
 
     const hexValue = chroma.hsl(
       hue,
-      Math.round(color[1] * 100),
-      Math.round(color[2] * 100)
+      Math.round(color[1]),
+      Math.round(color[2])
     );
 
     return `${hexValue} ${y}%`;

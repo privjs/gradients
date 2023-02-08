@@ -2,3 +2,5 @@
 .npmrc
 node_modules/
 src/
+example/
+.parcel-cache

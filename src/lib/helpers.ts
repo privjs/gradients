@@ -30,13 +30,10 @@ export const getStopsArray = (
     const hue = isNaN(color[0]) ? 0 : Math.round(color[0]);
 
     // const hslString = `hsl(${hue}deg ${}% ${}%)`;
+    const hslString = `hsl(${hue}deg ${Math.round(
+      color[1] * 100
+    )}% ${Math.round(color[2] * 100)}%)`;
 
-    const hexValue = chroma.hsl(
-      hue,
-      Math.round(color[1]),
-      Math.round(color[2])
-    );
-
-    return `${hexValue} ${y}%`;
+    return `${hslString} ${y}%`;
   });
 };
